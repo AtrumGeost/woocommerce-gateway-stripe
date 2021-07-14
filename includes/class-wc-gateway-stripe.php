@@ -3,6 +3,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
+//added a small comment here
+
 /**
  * WC_Gateway_Stripe class.
  *
