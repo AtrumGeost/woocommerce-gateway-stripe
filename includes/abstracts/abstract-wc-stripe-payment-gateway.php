@@ -4,7 +4,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 // phpcs:disable WordPress.Files.FileName
-// this is a quick way to test rebase
+// this is a quick way to test rebase — modifying comment on top of the rebase
 
 /**
  * Abstract class that will be inherited by all payment methods.
