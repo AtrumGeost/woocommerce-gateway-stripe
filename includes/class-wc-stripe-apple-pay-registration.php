@@ -86,8 +86,7 @@ class WC_Stripe_Apple_Pay_Registration {
 	 * @return string Secret key.
 	 */
 	private function get_secret_key() {
-		$testmode = 'yes' === $this->get_option( 'testmode', 'no' );
-		return $testmode ? $this->get_option( 'test_secret_key' ) : $this->get_option( 'secret_key' );
+		return $this->get_option( 'secret_key' );
 	}
 
 	/**
